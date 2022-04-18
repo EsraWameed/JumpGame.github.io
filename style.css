@@ -1,0 +1,32 @@
+/* the dot represents the classes */
+.grid{
+  width: 400px;
+  height: 600px;
+  background-color: yellow;
+  background-image: linear-gradient(to bottom, #94c5f8 1%,#a6e6ff 70%,#b1b5ea 100%);
+  /* the grid is going to be relative to our browser */
+  position: relative;
+  font-size: 200px;
+  text-align: center;
+}
+/* here we are styling the doodler */
+.doodler{
+  width: 60px;
+  height: 85px;
+  border-radius: 50%;
+  background-image: url('soccer.jpg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.platform{
+  width: 85px;
+  height: 15px;
+  border-radius: 15px 50px 30px;
+  border: 2px solid black;
+  background-image: linear-gradient(180deg, #8B4513, #CD853F );
+
+  /* to make sure the position is absolute inside the grid */
+  position: absolute;
+}
